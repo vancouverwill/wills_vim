@@ -1,6 +1,19 @@
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
-call pathogen#helptags()
+" filetype off
+
+
+"  call pathogen#runtime_append_all_bundles()
+
+"  syntax on
+
+"  filetype plugin indent on
+
+" call pathogen#helptags()
+
+" execute pathogen#infect()
+" syntax on
+"filetype plugin indent on
 
 " This .vimrc file should be placed in your home directory
 " The Terminal app supports (at least) 16 colors
@@ -72,6 +85,7 @@ highlight Todo          guifg=Blue  guibg=Yellow    gui=NONE
 
 set backspace+=indent,eol,start
 
-call pathogen#runtime_append_all_bundles()
+"" call pathogen#runtime_append_all_bundles()
 
-call pathogen#helptags()
+"" call pathogen#helptags()
+
