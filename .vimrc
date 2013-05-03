@@ -9,7 +9,7 @@ call pathogen#infect()
 
 "  filetype plugin indent on
 
-" call pathogen#helptags()
+call pathogen#helptags()
 
 " execute pathogen#infect()
 " syntax on
